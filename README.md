@@ -1,7 +1,7 @@
 
 # University Site Stats Calculator
 
-This program is used to scrape Alexandria University Website to automatically calculate some stats about your own account such as the GPA, total count for each grade, and total credit hours earned for each grade.
+This program is used to scrape Alexandria University Website to automatically calculate some stats about your own account such as the GPA, total hours earned, how many times you got each grade, and how many credit hours you earned for each grade.
 
 
 
@@ -31,3 +31,25 @@ Example: SITE_PASSWORD = 'qzqt735#' (This you university website password)
 7- Open the auto-generated csv files using excel to view your stats.
 
 ```
+
+
+## Example Generated Files
+gpa.csv:
+| GPA | TOTAL CREDITS |
+| --- | --- |
+| 3.3833333333333333 | 144 |
+
+grade_counts.csv:
+
+A+ | A | A- | B+ | B | B- | C+ | C | C- | D+ | D | F
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+10 | 9 | 11 | 7 | 4 | 3 | 1 | 4 | 1 | 1 | 0 | 0
+
+grade_credit_hours.csv:
+
+A+ | A | A- | B+ | B | B- | C+ | C | C- | D+ | D | F
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+27 | 25 | 31 | 21 | 11 | 9 | 3 | 11 | 3 | 3 | 0 | 0
+
+
+
