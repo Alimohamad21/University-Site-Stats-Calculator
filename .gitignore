@@ -1,0 +1,7 @@
+.env
+venv
+gpa.csv
+grade_counts.csv
+grade_credit_hours.csv
+__pycache__
+.idea
