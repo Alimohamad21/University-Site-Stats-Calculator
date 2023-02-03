@@ -12,7 +12,7 @@ This program is used to scrape Alexandria University Website to automatically ca
 1- git clone https://github.com/Alimohamad21/University-Site-Stats-Calculator
 2- pip install -r requirements.txt (At the root of your project)
 3- Install the msedge web driver from here: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/  
-4- Create a .env file in the root of the project.
+4- Create a .env file at the root of the project.
 5- Add the following variables to your .env file:
 
 DRIVER_PATH = ''
