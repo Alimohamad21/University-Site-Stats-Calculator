@@ -28,6 +28,6 @@ SITE_PASSWORD = ''
 Example: SITE_PASSWORD = 'qzqt735#' (This you university website password)
 
 6- Run main.py
-7- Open the auto-generated csv files to view your stats.
+7- Open the auto-generated csv files using excel to view your stats.
 
 ```
