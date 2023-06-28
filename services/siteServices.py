@@ -47,6 +47,7 @@ def get_grades():
                 break
         if isMaxTerm:
             break
+    driver.close()
     return grades
 
 
@@ -56,7 +57,7 @@ def get_stats(grades):
     grade_count = {'A+': 0, 'A': 0, 'A-': 0, 'B+': 0, 'B': 0, 'B-': 0, 'C+': 0, 'C': 0, 'C-': 0, 'D+': 0, 'D': 0,
                    'F': 0}
     for result in grades.values():
-        if result.grade != 'PC':
+        if result.grade in grade_count.keys():
             grade_credit_hours[result.grade] += result.credit_hours
             grade_count[result.grade] += 1
     total_score = 0
